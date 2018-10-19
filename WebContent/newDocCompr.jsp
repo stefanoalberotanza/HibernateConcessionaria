@@ -12,7 +12,7 @@
 			<label>INSERIRE DATI DOCUMENTO DI COMPRATORE <%= request.getParameter("nome") %> <%= request.getParameter("cognome") %><br /> <br /></label>
 		</p>
 		<label>DOCUMENTO<br></label><td><input type="text" name="documento" /><br />
-		<input type='text' name='id' value=<%=request.getParameter("id")%>>
+		<input type='hidden' name='id' value=<%=request.getParameter("id")%>>
 		<input type="submit" value="Aggiungi documento">
 	</form>
 

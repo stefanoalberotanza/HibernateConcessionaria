@@ -17,7 +17,8 @@
 				<th>Cognome</th>
 				<th>Nome</th>
 				<th>Città</th>
-				<th>Documento</th>
+				<th>Aggiungi documenti</th>
+				<th>Visualizza documenti</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -29,9 +30,15 @@
 				<td><form action='newDocCompr.jsp' method='post'>
 					<input type='hidden' name='nome' value=<%=c.getNome()%>>
 					<input type='hidden' name='cognome' value=<%=c.getCognome()%>>
-					<input type='text' name='id' value=<%=c.getId()%>>		
+					<input type='hidden' name='id' value=<%=c.getId()%>>		
 				<input type="submit" value="Aggiungi documento">
 				</form>
+				</td>
+				<td><form action='getDocCompr' method='post'>
+					<input type='hidden' name='id' value=<%=c.getId()%>>		
+				<input type="submit" value="Visualizza documenti">
+				</form>
+				</td>
 		</tr>
 	<% } %>
 </body>
