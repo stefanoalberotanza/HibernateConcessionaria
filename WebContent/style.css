@@ -9,3 +9,7 @@ input[type=submit]:hover {
 	padding: 5px 7px;
 	cursor:pointer;
 }
+
+form{
+	display: inline-block;
+}

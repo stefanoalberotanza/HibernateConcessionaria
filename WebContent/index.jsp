@@ -29,5 +29,21 @@
 <input type="submit" value="aggiungi documento"/>
 </form>
 </div>
+<div style="display:block;text-align:center">
+<h1>Compratori</h1>
+<form action="getCompr" method="get">
+<input type="text" name="nome"/>
+<input type="submit" value="visualizza compratori"/>
+</form>
+<form action="newCompr.jsp" method="get">
+<input type="submit" value="aggiungi compratore"/>
+</form>
+</div>
+<div style="display:block;text-align:center">
+<h1>Documenti Compratore</h1>
+<form action="getDocCompr" method="get">
+<input type="text" name="nome"/>
+<input type="submit" value="visualizza documento"/>
+</form>
 </body>
 </html>

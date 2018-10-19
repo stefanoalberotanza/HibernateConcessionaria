@@ -41,7 +41,9 @@ public class getAuto extends HttpServlet {
         	if(request.getParameter("targa") == ""){
         		List<Auto> autoList  = session.createCriteria(Auto.class).list();
         		Iterator it = autoList.iterator();
-            	out.print("<body>");
+        		/*request.setAttribute("autolista", autoList);
+        		request.getRequestDispatcher("PrendiAuto.jsp").forward(request, response);
+            	*/out.print("<body>");
             	out.print("<div style='text-align:center'>");
             	out.print("<table border=\"1\" cellspacing=10 cellpadding=5 style='text-align:center;margin: auto;'>");
         		out.print("<th>Targa</th>");
