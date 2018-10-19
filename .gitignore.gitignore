@@ -1,0 +1,17 @@
+/build/
+/target/
+hibernate.cfg.xml
+/build/classes/
+hibernate.cfg.xml
+/src/
+hibernate.cfg.xml
+
+hibernate.cfg.xml
+/build/
+target/
+hibernate.cfg.xml
+/target/classes/
+hibernate.cfg.xml
+/target/
+hibernate.cfg.xml
+**/hibernate.cfg.xml

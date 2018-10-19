@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+input[type=submit] {
+	border:none;
+	padding: 5px 7px;
+}
+
+input[type=submit]:hover {
+	border:none;
+	padding: 5px 7px;
+	cursor:pointer;
+}
